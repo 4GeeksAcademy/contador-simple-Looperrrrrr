@@ -9,3 +9,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 2rem; 
+    
+}
+
+.digit {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    background: rgb(34, 34, 34);
+    border-radius: 15%;
+    border-left: 3px solid rgb(75, 75, 75);
+    border-right: 3px solid rgb(75, 75, 75);
+}
